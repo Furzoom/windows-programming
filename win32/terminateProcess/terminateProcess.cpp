@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
     DWORD dwProcessId;
     if (CreateProcessByCmdLine(szProcessName, &dwProcessId))
     {
-        puts("Will close it.(Press ENTER to continue");
+        puts("Will close it.(Press ENTER to continue)");
         getchar();
         if (TerminateProcessFromId(dwProcessId))
         {

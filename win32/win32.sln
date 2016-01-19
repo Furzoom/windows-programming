@@ -15,6 +15,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "printAllProcesses", "printA
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "terminateProcess", "terminateProcess\terminateProcess.vcxproj", "{E7E3971E-AC5D-4C1E-92AA-808025BBEED4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memTest", "memTest\memTest.vcxproj", "{BEAD8C81-C074-484E-96FB-78652197B3BC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memModify", "memModify\memModify.vcxproj", "{C257685A-3B57-4DD0-85E1-8EFB0579E8F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -67,6 +71,18 @@ Global
 		{E7E3971E-AC5D-4C1E-92AA-808025BBEED4}.Release|Win32.ActiveCfg = Release|Win32
 		{E7E3971E-AC5D-4C1E-92AA-808025BBEED4}.Release|Win32.Build.0 = Release|Win32
 		{E7E3971E-AC5D-4C1E-92AA-808025BBEED4}.Release|x64.ActiveCfg = Release|Win32
+		{BEAD8C81-C074-484E-96FB-78652197B3BC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BEAD8C81-C074-484E-96FB-78652197B3BC}.Debug|Win32.Build.0 = Debug|Win32
+		{BEAD8C81-C074-484E-96FB-78652197B3BC}.Debug|x64.ActiveCfg = Debug|Win32
+		{BEAD8C81-C074-484E-96FB-78652197B3BC}.Release|Win32.ActiveCfg = Release|Win32
+		{BEAD8C81-C074-484E-96FB-78652197B3BC}.Release|Win32.Build.0 = Release|Win32
+		{BEAD8C81-C074-484E-96FB-78652197B3BC}.Release|x64.ActiveCfg = Release|Win32
+		{C257685A-3B57-4DD0-85E1-8EFB0579E8F3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C257685A-3B57-4DD0-85E1-8EFB0579E8F3}.Debug|Win32.Build.0 = Debug|Win32
+		{C257685A-3B57-4DD0-85E1-8EFB0579E8F3}.Debug|x64.ActiveCfg = Debug|Win32
+		{C257685A-3B57-4DD0-85E1-8EFB0579E8F3}.Release|Win32.ActiveCfg = Release|Win32
+		{C257685A-3B57-4DD0-85E1-8EFB0579E8F3}.Release|Win32.Build.0 = Release|Win32
+		{C257685A-3B57-4DD0-85E1-8EFB0579E8F3}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

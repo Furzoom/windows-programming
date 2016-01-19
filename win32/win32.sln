@@ -11,6 +11,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "English", "English\English.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chinese", "Chinese\Chinese.vcxproj", "{9E03258C-79BD-4E85-A096-6C13DD19E283}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "printAllProcesses", "printAllProcesses\printAllProcesses.vcxproj", "{4B488F14-237A-4A26-B453-49F15CF71D6B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "terminateProcess", "terminateProcess\terminateProcess.vcxproj", "{E7E3971E-AC5D-4C1E-92AA-808025BBEED4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -51,6 +55,18 @@ Global
 		{9E03258C-79BD-4E85-A096-6C13DD19E283}.Release|Win32.ActiveCfg = Release|Win32
 		{9E03258C-79BD-4E85-A096-6C13DD19E283}.Release|Win32.Build.0 = Release|Win32
 		{9E03258C-79BD-4E85-A096-6C13DD19E283}.Release|x64.ActiveCfg = Release|Win32
+		{4B488F14-237A-4A26-B453-49F15CF71D6B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4B488F14-237A-4A26-B453-49F15CF71D6B}.Debug|Win32.Build.0 = Debug|Win32
+		{4B488F14-237A-4A26-B453-49F15CF71D6B}.Debug|x64.ActiveCfg = Debug|Win32
+		{4B488F14-237A-4A26-B453-49F15CF71D6B}.Release|Win32.ActiveCfg = Release|Win32
+		{4B488F14-237A-4A26-B453-49F15CF71D6B}.Release|Win32.Build.0 = Release|Win32
+		{4B488F14-237A-4A26-B453-49F15CF71D6B}.Release|x64.ActiveCfg = Release|Win32
+		{E7E3971E-AC5D-4C1E-92AA-808025BBEED4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E7E3971E-AC5D-4C1E-92AA-808025BBEED4}.Debug|Win32.Build.0 = Debug|Win32
+		{E7E3971E-AC5D-4C1E-92AA-808025BBEED4}.Debug|x64.ActiveCfg = Debug|Win32
+		{E7E3971E-AC5D-4C1E-92AA-808025BBEED4}.Release|Win32.ActiveCfg = Release|Win32
+		{E7E3971E-AC5D-4C1E-92AA-808025BBEED4}.Release|Win32.Build.0 = Release|Win32
+		{E7E3971E-AC5D-4C1E-92AA-808025BBEED4}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -52,6 +52,14 @@ int main(int argc, char* argv[])
     {
         printf("Write data success\n");
     }
+
+    printf("Will terminate %s.(Press ENTER to continue)\n", szFileName);
+    getchar(); // wait
+
+    if (::TerminateProcess(pi.hProcess, 0))
+    {
+        printf("Terminate %s success!\n", szFileName);
+    }
     ::CloseHandle(pi.hProcess);
     getchar(); // wait
     return 0;
@@ -70,7 +78,7 @@ BOOL CompareAPage(DWORD dwBaseAddr, DWORD dwValue)
         pdw = (LPDWORD)&arBytes[i];
         if (*pdw == dwValue)
         {
-            if (g_nListCnt >= 1024)
+            if (g_nListCnt >= MAX_ADDR_COUNT)
             {
                 return FALSE;
             }

@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "handleMsg", "handleMsg\hand
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "menus", "menus\menus.vcxproj", "{D0206363-F39C-4D21-8224-04F87488C7D7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "menus_two", "menus_two\menus_two.vcxproj", "{01F1AB26-FD68-400A-9A18-5C72CF22BC75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -31,6 +33,10 @@ Global
 		{D0206363-F39C-4D21-8224-04F87488C7D7}.Debug|Win32.Build.0 = Debug|Win32
 		{D0206363-F39C-4D21-8224-04F87488C7D7}.Release|Win32.ActiveCfg = Release|Win32
 		{D0206363-F39C-4D21-8224-04F87488C7D7}.Release|Win32.Build.0 = Release|Win32
+		{01F1AB26-FD68-400A-9A18-5C72CF22BC75}.Debug|Win32.ActiveCfg = Debug|Win32
+		{01F1AB26-FD68-400A-9A18-5C72CF22BC75}.Debug|Win32.Build.0 = Debug|Win32
+		{01F1AB26-FD68-400A-9A18-5C72CF22BC75}.Release|Win32.ActiveCfg = Release|Win32
+		{01F1AB26-FD68-400A-9A18-5C72CF22BC75}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

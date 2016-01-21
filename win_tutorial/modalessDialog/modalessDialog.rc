@@ -1,0 +1,29 @@
+#include <windows.h>
+#include "resource.h"
+
+// menu
+IDR_MENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit", ID_FILE_EXIT
+    END
+
+    POPUP "&Dialog"
+    BEGIN
+        MENUITEM "&Show", ID_DIALOG_SHOW
+        MENUITEM "&Hide", ID_DIALOG_HIDE
+    END
+END
+
+// dialog
+IDD_TOOLBAR DIALOGEX 0, 0, 98, 52
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "TOOLBAR"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT       "Modaless Dialog Demo!\r\n By furzoom", IDC_STATIC, 3, 1, 92, 16
+    PUSHBUTTON  "&Press me", IDC_PRESS, 7, 20, 84, 14
+    PUSHBUTTON  "&Or this one", IDC_OTHER, 7, 36, 84, 14
+END

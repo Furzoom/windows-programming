@@ -1,0 +1,13 @@
+#include "resource.h"
+#include <windows.h>
+
+// menu
+IDR_MENU MENU
+{
+    POPUP "&File"
+    {
+        MENUITEM "&Open", ID_FILE_OPEN
+        MENUITEM "&Save", ID_FILE_SAVE
+        MENUITEM "&Exit", ID_FILE_EXIT
+    }
+}

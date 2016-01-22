@@ -1,0 +1,32 @@
+#include "resource.h"
+#include <windows.h>
+
+// menu
+IDR_MENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit", ID_FILE_EXIT
+    END
+
+    POPUP "&Dialog"
+    BEGIN
+        MENUITEM "&Show", ID_DIALOG_SHOW
+    END
+END
+
+// dialog
+IDD_SHOW DIALOG DISCARDABLE 0, 0, 185, 100
+STYLE DS_MODALFRAME | WS_POPUP | WS_SYSMENU | WS_CAPTION
+CAPTION "Example"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT       "Add", IDC_LABEL,    5, 6, 20, 12,      SS_LEFT
+    EDITTEXT    IDE_INPUT,           30, 5, 110, 12,    WS_TABSTOP
+    EDITTEXT    IDE_TIMES,           145, 5, 15, 12,    WS_TABSTOP
+    CTEXT       "times", IDC_STATIC, 160, 6, 20, 12,    SS_LEFT
+    EDITTEXT    IDE_OUTPUT,          5, 23, 135, 67,    WS_TABSTOP | ES_MULTILINE | ES_AUTOHSCROLL | ES_AUTOVSCROLL | WS_VSCROLL
+    PUSHBUTTON  "&Add", ID_ADD,      145, 23, 35, 12
+    PUSHBUTTON  "&Remove", ID_REMOVE,145, 38, 35, 12,   WS_DISABLED
+    PUSHBUTTON  "&Clear", ID_CLEAR,  145, 53, 35, 12
+END

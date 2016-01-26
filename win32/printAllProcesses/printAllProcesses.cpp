@@ -23,8 +23,9 @@ int main(int argc, char* argv[])
     BOOL bMore = ::Process32First(hProcessSnap, &pe32);
     while (bMore) 
     {
-        printf("Process name: %s\n", pe32.szExeFile);
-        printf("Process ID:   %u\n\n", pe32.th32ProcessID);
+        printf("%-20.20s%6u%4u%6u%6u%6u%3ld\n", pe32.szExeFile, 
+            pe32.th32ProcessID, pe32.cntUsage, pe32.th32DefaultHeapID, 
+            pe32.th32ModuleID, pe32.th32ParentProcessID, pe32.pcPriClassBase);
         bMore = ::Process32Next(hProcessSnap, &pe32);
         iProcessCount ++;
     }

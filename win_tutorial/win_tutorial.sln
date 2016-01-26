@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "control", "control\control.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simpleEditor", "simpleEditor\simpleEditor.vcxproj", "{F33BA258-C0CF-4756-8DB1-964449EB8E63}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitmap", "bitmap\bitmap.vcxproj", "{EAC7B1F0-5592-47A2-BFF1-01BB949CC746}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -61,6 +63,10 @@ Global
 		{F33BA258-C0CF-4756-8DB1-964449EB8E63}.Debug|Win32.Build.0 = Debug|Win32
 		{F33BA258-C0CF-4756-8DB1-964449EB8E63}.Release|Win32.ActiveCfg = Release|Win32
 		{F33BA258-C0CF-4756-8DB1-964449EB8E63}.Release|Win32.Build.0 = Release|Win32
+		{EAC7B1F0-5592-47A2-BFF1-01BB949CC746}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EAC7B1F0-5592-47A2-BFF1-01BB949CC746}.Debug|Win32.Build.0 = Debug|Win32
+		{EAC7B1F0-5592-47A2-BFF1-01BB949CC746}.Release|Win32.ActiveCfg = Release|Win32
+		{EAC7B1F0-5592-47A2-BFF1-01BB949CC746}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

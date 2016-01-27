@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "terminateProcess2", "termin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thread", "thread\thread.vcxproj", "{0E3E722A-2D76-4D5B-B72E-FB50CE9F45BB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "threadPriority", "threadPriority\threadPriority.vcxproj", "{F7E44B92-7CE1-4055-904E-223475BB4FEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -99,6 +101,12 @@ Global
 		{0E3E722A-2D76-4D5B-B72E-FB50CE9F45BB}.Release|Win32.ActiveCfg = Release|Win32
 		{0E3E722A-2D76-4D5B-B72E-FB50CE9F45BB}.Release|Win32.Build.0 = Release|Win32
 		{0E3E722A-2D76-4D5B-B72E-FB50CE9F45BB}.Release|x64.ActiveCfg = Release|Win32
+		{F7E44B92-7CE1-4055-904E-223475BB4FEC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F7E44B92-7CE1-4055-904E-223475BB4FEC}.Debug|Win32.Build.0 = Debug|Win32
+		{F7E44B92-7CE1-4055-904E-223475BB4FEC}.Debug|x64.ActiveCfg = Debug|Win32
+		{F7E44B92-7CE1-4055-904E-223475BB4FEC}.Release|Win32.ActiveCfg = Release|Win32
+		{F7E44B92-7CE1-4055-904E-223475BB4FEC}.Release|Win32.Build.0 = Release|Win32
+		{F7E44B92-7CE1-4055-904E-223475BB4FEC}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

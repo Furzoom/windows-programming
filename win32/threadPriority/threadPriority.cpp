@@ -4,6 +4,8 @@
 static DWORD WINAPI threadIdle(LPVOID lpParam);
 static DWORD WINAPI threadNormal(LPVOID lpParam);
 
+const int g_icCount = 100;
+
 int main(int argc, char* argv[])
 {
     DWORD dwThreadId;
@@ -17,28 +19,29 @@ int main(int argc, char* argv[])
 //    ::SetThreadPriority(h[1], THREAD_PRIORITY_NORMAL);
 //    ::ResumeThread(h[1]);
 
+    ::WaitForMultipleObjects(2, h, TRUE, INFINITE);
     DWORD dwRet;
     int iCount = 0;
-    while (iCount != 2)
-    {
-        dwRet = ::WaitForMultipleObjects(2, h, FALSE, 1);
-        switch (dwRet)
-        {
-        case WAIT_FAILED:
-            printf("WaitForMultipleObjects failed!\n");
-            break;
-        case WAIT_TIMEOUT:
-            printf("Time out!\n");
-            iCount = 2;
-            break;
-        case WAIT_OBJECT_0 + 0:
-            printf("Idle signaled\n");
-            break;
-        case WAIT_OBJECT_0 + 1:
-            printf("Normal signaled\n");
-            break;
-        }
-    }
+    //while (iCount != 2)
+    //{
+    //    dwRet = ::WaitForMultipleObjects(2, h, FALSE, 1);
+    //    switch (dwRet)
+    //    {
+    //    case WAIT_FAILED:
+    //        printf("WaitForMultipleObjects failed!\n");
+    //        break;
+    //    case WAIT_TIMEOUT:
+    //        printf("Time out!\n");
+    //        iCount = 2;
+    //        break;
+    //    case WAIT_OBJECT_0 + 0:
+    //        printf("Idle signaled\n");
+    //        break;
+    //    case WAIT_OBJECT_0 + 1:
+    //        printf("Normal signaled\n");
+    //        break;
+    //    }
+    //}
 
     ::CloseHandle(h[0]);
     ::CloseHandle(h[1]);
@@ -47,7 +50,7 @@ int main(int argc, char* argv[])
 
 DWORD WINAPI threadIdle(LPVOID lpParam)
 {
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < g_icCount; i++)
     {
         printf("Idle %d\n", i);
     }
@@ -56,7 +59,7 @@ DWORD WINAPI threadIdle(LPVOID lpParam)
 
 DWORD WINAPI threadNormal(LPVOID lpParam)
 {
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < g_icCount; i++)
     {
         printf("Normal %d\n", i);
     }

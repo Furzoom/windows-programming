@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thread", "thread\thread.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "threadPriority", "threadPriority\threadPriority.vcxproj", "{F7E44B92-7CE1-4055-904E-223475BB4FEC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "threadCount", "threadCount\threadCount.vcxproj", "{CE2D4E52-1CF1-4610-9FF5-739489BB01D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -107,6 +109,12 @@ Global
 		{F7E44B92-7CE1-4055-904E-223475BB4FEC}.Release|Win32.ActiveCfg = Release|Win32
 		{F7E44B92-7CE1-4055-904E-223475BB4FEC}.Release|Win32.Build.0 = Release|Win32
 		{F7E44B92-7CE1-4055-904E-223475BB4FEC}.Release|x64.ActiveCfg = Release|Win32
+		{CE2D4E52-1CF1-4610-9FF5-739489BB01D3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CE2D4E52-1CF1-4610-9FF5-739489BB01D3}.Debug|Win32.Build.0 = Debug|Win32
+		{CE2D4E52-1CF1-4610-9FF5-739489BB01D3}.Debug|x64.ActiveCfg = Debug|Win32
+		{CE2D4E52-1CF1-4610-9FF5-739489BB01D3}.Release|Win32.ActiveCfg = Release|Win32
+		{CE2D4E52-1CF1-4610-9FF5-739489BB01D3}.Release|Win32.Build.0 = Release|Win32
+		{CE2D4E52-1CF1-4610-9FF5-739489BB01D3}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

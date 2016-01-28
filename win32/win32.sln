@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "threadCount2", "threadCount
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "threadCount3", "threadCount3\threadCount3.vcxproj", "{443AB7E3-EC56-42F9-A619-738D2DCC1AEE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "createEvent", "createEvent\createEvent.vcxproj", "{63C16733-C040-4285-BE83-BD58844EAB85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -131,6 +133,12 @@ Global
 		{443AB7E3-EC56-42F9-A619-738D2DCC1AEE}.Release|Win32.ActiveCfg = Release|Win32
 		{443AB7E3-EC56-42F9-A619-738D2DCC1AEE}.Release|Win32.Build.0 = Release|Win32
 		{443AB7E3-EC56-42F9-A619-738D2DCC1AEE}.Release|x64.ActiveCfg = Release|Win32
+		{63C16733-C040-4285-BE83-BD58844EAB85}.Debug|Win32.ActiveCfg = Debug|Win32
+		{63C16733-C040-4285-BE83-BD58844EAB85}.Debug|Win32.Build.0 = Debug|Win32
+		{63C16733-C040-4285-BE83-BD58844EAB85}.Debug|x64.ActiveCfg = Debug|Win32
+		{63C16733-C040-4285-BE83-BD58844EAB85}.Release|Win32.ActiveCfg = Release|Win32
+		{63C16733-C040-4285-BE83-BD58844EAB85}.Release|Win32.Build.0 = Release|Win32
+		{63C16733-C040-4285-BE83-BD58844EAB85}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

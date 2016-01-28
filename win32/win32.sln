@@ -27,6 +27,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "threadPriority", "threadPri
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "threadCount", "threadCount\threadCount.vcxproj", "{CE2D4E52-1CF1-4610-9FF5-739489BB01D3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "threadCount2", "threadCount2\threadCount2.vcxproj", "{B91FAEE0-DD7C-43F4-9D59-68174FA681C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "threadCount3", "threadCount3\threadCount3.vcxproj", "{443AB7E3-EC56-42F9-A619-738D2DCC1AEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -115,6 +119,18 @@ Global
 		{CE2D4E52-1CF1-4610-9FF5-739489BB01D3}.Release|Win32.ActiveCfg = Release|Win32
 		{CE2D4E52-1CF1-4610-9FF5-739489BB01D3}.Release|Win32.Build.0 = Release|Win32
 		{CE2D4E52-1CF1-4610-9FF5-739489BB01D3}.Release|x64.ActiveCfg = Release|Win32
+		{B91FAEE0-DD7C-43F4-9D59-68174FA681C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B91FAEE0-DD7C-43F4-9D59-68174FA681C1}.Debug|Win32.Build.0 = Debug|Win32
+		{B91FAEE0-DD7C-43F4-9D59-68174FA681C1}.Debug|x64.ActiveCfg = Debug|Win32
+		{B91FAEE0-DD7C-43F4-9D59-68174FA681C1}.Release|Win32.ActiveCfg = Release|Win32
+		{B91FAEE0-DD7C-43F4-9D59-68174FA681C1}.Release|Win32.Build.0 = Release|Win32
+		{B91FAEE0-DD7C-43F4-9D59-68174FA681C1}.Release|x64.ActiveCfg = Release|Win32
+		{443AB7E3-EC56-42F9-A619-738D2DCC1AEE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{443AB7E3-EC56-42F9-A619-738D2DCC1AEE}.Debug|Win32.Build.0 = Debug|Win32
+		{443AB7E3-EC56-42F9-A619-738D2DCC1AEE}.Debug|x64.ActiveCfg = Debug|Win32
+		{443AB7E3-EC56-42F9-A619-738D2DCC1AEE}.Release|Win32.ActiveCfg = Release|Win32
+		{443AB7E3-EC56-42F9-A619-738D2DCC1AEE}.Release|Win32.Build.0 = Release|Win32
+		{443AB7E3-EC56-42F9-A619-738D2DCC1AEE}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
